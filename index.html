@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <link href="./css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="./css/custom.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="http://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo">Pollution Calculator</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <ul id="nav-mobile" class="side-nav">
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        </div>
+    </nav>
+
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <br><br>
+                <h1 class="header center teal-text text-lighten-2">Pollution Calculator</h1>
+                <div class="row center">
+                    <h5 class="header col s12 light">
+                        Find out just how much c02 you're creating in real time!
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="./img/parallax.jpg" alt="Unsplashed background img 2"></div>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col s12 center">
+                    <h3><i class="mdi-action-accessibility brown-text"></i></h3>
+                    <h4>When was your birthday?</h4>
+                    <p class="left-align light">
+                        <label for="birthday">Birthday</label>
+                        <input id="birthday" type="date" class="datepicker">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="cars" class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col s12 center">
+                    <h3><i class="mdi-maps-directions-car brown-text"></i></h3>
+                    <h4>What type of car do you drive?</h4>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img src="./img/cars/sports.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">
+                                <input type="checkbox" id="car-sports" />
+                                <label for="car-sports">Sports Car</label>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img src="./img/cars/van.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">
+                                <input type="checkbox" id="car-van" />
+                                <label for="car-van">People Cruiser</label>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img src="./img/cars/truck.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">
+                                <input type="checkbox" id="car-truck" />
+                                <label for="car-truck">Truck</label>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img src="./img/cars/sedan.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">
+                                <input type="checkbox" id="car-sedan" />
+                                <label for="car-sedan">Sedan</label>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img src="./img/cars/ev.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">
+                                <input type="checkbox" id="car-ev" />
+                                <label for="car-ev">It's electric Boogie woogie, woogie!</label>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img src="./img/cars/18.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">
+                                <input type="checkbox" id="car-18" />
+                                <label for="car-18">18 wheeler</label>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="foods"class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col s12 center">
+                    <h3><i class="mdi-maps-local-florist brown-text"></i></h3>
+                    <h4>What foods do you eat?</h4>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img src="./img/foods/almonds.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">
+                                <input type="checkbox" id="food-almonds" />
+                                <label for="food-almonds">Almonds</label>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img src="./img/foods/meat.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">
+                                <input type="checkbox" id="food-meat" />
+                                <label for="food-meat">Meat</label>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img src="./img/foods/butter.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">
+                                <input type="checkbox" id="food-butter" />
+                                <label for="food-butter">Butter</label>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img src="./img/cars/sedan.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">
+                                <input type="checkbox" id="car-sedan" />
+                                <label for="car-sedan">Sedan</label>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img src="./img/cars/ev.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">
+                                <input type="checkbox" id="car-ev" />
+                                <label for="car-ev">It's electric Boogie woogie, woogie!</label>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img src="./img/cars/18.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">
+                                <input type="checkbox" id="car-18" />
+                                <label for="car-18">18 wheeler</label>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <footer class="page-footer teal">
+    <div class="footer-copyright">
+      <div class="container">
+          Made by <a class="brown-text text-lighten-3" href="#">Colin Bookman</a> and <a class="brown-text text-lighten-3" href="#">Sarah Woogen</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="./js/materialize.min.js"></script>
+  <script>
+  (function($){
+      $(function(){
+          $('.button-collapse').sideNav();
+          $('.parallax').parallax();
+      }); // end of document ready
+
+      $('.datepicker').pickadate({
+          selectMonths: true, // Creates a dropdown to control month
+          selectYears: 150 // Creates a dropdown of 15 years to control year
+      });
+  })(jQuery); // end of jQuery name space
+  </script>
+</body>
+</html>
